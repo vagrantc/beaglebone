@@ -1,0 +1,23 @@
+Source: beaglebone
+Section: misc
+Priority: extra
+Maintainer: Vagrant Cascadian <vagrant@debian.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: http://beagleboard.org/Products/BeagleBone%20Black
+#Vcs-Git: git://git.debian.org/collab-maint/beaglebone.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/beaglebone.git;a=summary
+
+Package: beaglebone
+Architecture: all
+Depends: ${misc:Depends},
+ acpi-support-base, 
+ am335x-pru-package,
+ libsoc2,
+ nodejs,
+ nodejs-legacy,
+ npm, 
+ xinput-calibrator,
+ xserver-xorg-video-modesetting,
+Description: dependency package for BeagleBone Black
+ Dependency package for BeagleBone Black

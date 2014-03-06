@@ -1,0 +1,5 @@
+beaglebone (0.20140306.1) wheezy-bbb; urgency=low
+
+  * Initial release.
+
+ -- Vagrant Cascadian <vagrant@debian.org>  Thu, 06 Mar 2014 08:15:29 -0800
