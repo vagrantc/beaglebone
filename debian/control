@@ -1,7 +1,7 @@
 Source: beaglebone
 Section: misc
 Priority: extra
-Maintainer: Vagrant Cascadian <vagrant@debian.org>
+Maintainer: Vagrant Cascadian <vagrant@aikidev.net>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.5
 Homepage: http://beagleboard.org/Products/BeagleBone%20Black
